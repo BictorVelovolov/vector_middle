@@ -7,11 +7,24 @@ using namespace std;
 
 int main()
 {
-    string str;
-    vector <char> vec;
+    char k;
+    int n;
+    string str, les;
+    /*vector <char> vec;
+    cout << "Enter sep: ";
+    getline(cin, sep);
+    cout << "How many elements of vector do you need?\n";
+    cin >> n;
+    for (int i = 0; i < n; i++){
+        cout << endl << "Enter " << i + 1 << " element of vector: ";
+        cin >> k;
+        vec.push_back(k);
+    }
+
+    str = itc_join(vec, sep);*/
     getline(cin, str);
-    vec = itc_strlist(str);
-    for (int i = 0; i < vec.size(); i++)
-        cout << vec[i] << " ";
+    getline(cin, les);
+    str = itc_rmstrchar(str, les);
+    cout << str;
     return 0;
 }
