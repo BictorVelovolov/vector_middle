@@ -74,6 +74,6 @@ void itc_odd_even_analysis_lst(const vector <int> lst){
     cout << "[" << lst[0];
     for(int i = 1; i < lst.size(); i++)
         cout << "," << lst[i];
-    cout << "] --> \nvector analysis: \neven parts kolichestvo:" << ek << endl << "maximum even: " << max2 << endl << "minimum even: " << min2 << endl << "summa of even:" << itc_sumlst(evlst);
-    cout << endl << "\nnot even parts kolichestvo:" << nek << endl << "maximum not even: " << max1 << endl << "minimum  not even: " << min1 << endl << "summa of not even:" << itc_sumlst(nevlst);
+    cout << "] --> \nvector analysis: \neven parts kolichestvo:" << ek << "        not even parts kolichestvo: " << nek << endl << "maximum even: " << max2 << "        maximum not even: " << max1;
+    cout << endl << "minimal even: " << min2 << "       minimal not even" << min1 << endl << "summ of even: " << itc_sumlst(evlst) << "        summ of not even: " << itc_sumlst(nevlst);
 }
