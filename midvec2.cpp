@@ -6,6 +6,7 @@ using namespace std;
 
 long itc_sum_even_lst(const vector <int> &lst){
     long sum;
+    sum = 0;
     for (int i = 1; i < lst.size(); i += 2)
         sum += lst[i];
     return sum;
@@ -13,6 +14,7 @@ long itc_sum_even_lst(const vector <int> &lst){
 
 long itc_sum_even_part_lst(const vector <int> &lst){
     long sum;
+    sum = 0;
     for (int i = 0; i < lst.size(); i++)
         if(lst[i] % 2 == 0)
             sum += lst[i];
@@ -21,6 +23,7 @@ long itc_sum_even_part_lst(const vector <int> &lst){
 
 long itc_sum_not_even_part_lst(const vector <int> &lst){
     long sum;
+    sum = 0;
     for (int i = 0; i < lst.size(); i++)
         if(lst[i] % 2 != 0)
             sum += lst[i];
