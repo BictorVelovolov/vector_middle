@@ -47,9 +47,9 @@ void itc_pos_neg_separator_lst(const vector <int> lst, vector <int> lst1, vector
         ch = lst[i];
         if (ch < 0)
             lst1.push_back(ch);
-        if (ch > 0)
-            lst2.push_back(ch);
         if (ch == 0)
+            lst2.push_back(ch);
+        if (ch > 0)
             lst3.push_back(ch);
     }
 }
