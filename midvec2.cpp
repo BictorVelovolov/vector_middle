@@ -40,7 +40,7 @@ void itc_odd_even_separator_lst(const vector <int> &lst, vector <int> &lst1, vec
 }
 
 
-void itc_pos_neg_separator_lst(const vector <int> lst, vector <int> lst1, vector <int> lst2, vector <int> lst3){
+void itc_pos_neg_separator_lst(const vector <int> &lst, vector <int> &lst1, vector <int> &lst2, vector <int> &lst3){
     int ch;
     ch = 0;
     for (int i = 0; i < lst.size(); i++){
